@@ -21,7 +21,7 @@ function createCard(date, day, games) {
   `
 }
 
-alert("Bem vinde ao calendário da copa do Dimas! \nPrepare sua pipoca e vamos maratonar os jogos.")
+alert("Bem vindo! \n Esse é o calendário da copa, um projeto que eu codei no NLW! \nPrepare sua pipoca e vamos maratonar os jogos.")
 
 document.querySelector("#cards").innerHTML =
     createCard("20/11", "domingo", createGame("Catar", "13:00", "Equador")) + 
